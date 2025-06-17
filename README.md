@@ -1,4 +1,4 @@
-# 🗽 Real-Time NYC Taxi Data Analytics Pipeline
+# Real-Time NYC Taxi Data Analytics Pipeline
 
 A complete data engineering pipeline using **Azure Data Factory**, **Databricks**, and **Azure Data Lake**, designed to process and analyze **NYC Taxi Trip Data** in both batch and streaming modes using the **Medallion Architecture**.
 
@@ -7,13 +7,13 @@ A complete data engineering pipeline using **Azure Data Factory**, **Databricks*
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project showcases a scalable and modular data pipeline built on Azure services, enabling real-time insights into NYC taxi activity. The architecture is organized into **Bronze**, **Silver**, and **Gold** layers following the Medallion pattern for data reliability, quality, and performance.
 
 ---
 
-## ⚙️ Architecture Diagram
+## Architecture Diagram
 
 ```plaintext
 [NYC Taxi Trip Data (HTTP CSV)] 
@@ -31,7 +31,7 @@ This project showcases a scalable and modular data pipeline built on Azure servi
 
 ---
 
-## 🔁 Workflow Breakdown
+## Workflow Breakdown
 
 ### 1. Azure Data Factory — Bronze Layer
 - Ingests raw NYC Taxi data from HTTP source.
@@ -90,19 +90,11 @@ README.md
 
 ---
 
-## 🎯 Key Learning Outcomes
+## Key Learning Outcomes
 
-- 🧩 End-to-end orchestration using Azure Data Factory
-- 🧱 Layered data lake architecture with Delta Lake
-- ⚡ Real-time and batch processing via Spark (Databricks)
-- 📊 Insight generation using Power BI or Synapse
-
----
-
-## 📎 Repo Link
-
-🔗 [GitHub Repository](https://github.com/your-username/nyc-taxi-azure-pipeline)
-
-> *Feel free to fork this repository and adapt it to your own datasets or industry-specific workflows.*
+- End-to-end orchestration using Azure Data Factory
+- Layered data lake architecture with Delta Lake
+- Real-time and batch processing via Spark (Databricks)
+- Insight generation using Power BI or Synapse
 
 ---
