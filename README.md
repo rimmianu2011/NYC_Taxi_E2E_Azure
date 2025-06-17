@@ -83,7 +83,7 @@ notebooks/
   └── gold_layer.dbc                # KPI aggregation logic
 
 adf_pipeline/
-  └── nyc_data_copy_pipeline.json   # ADF pipeline definition
+  └── copy_data_from_source.json   # ADF pipeline: Copy data from source to sink (bronze layer)
 
 README.md
 ```
